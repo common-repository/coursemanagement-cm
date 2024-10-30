@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>courseManagement (CM) manual</title>
+</head>
+
+<body>
+<h1>courseManagement (CM) Manual</h1>
+<h2>Table of Content</h2>
+<ul>
+  <li><a href="#install">Install</a></li>
+  <li><a href="#settings">Settings</a></li>
+  <li><a href="#courseoverview">Course overview</a></li>
+  <li><a href="#addnewcourse">Add new course</a></li>
+  <li><a href="#viewcourse">View course</a></li>
+  <li><a href="#editcourse">Edit course</a></li>
+  <li><a href="#removecourse">Remove course</a></li>
+  <li><a href="#showcourse">Show course overview on a wordpress page</a></li>
+  <li><a href="#showregistration">Show registration form on a wordpress page</a></li>
+  <li><a href="#addcaptcha">Add CAPTCHA</a></li>
+  <li><a href="#participantoverview">Participant overview</a></li>
+  <li><a href="#addnewparticipant">Add new participant</a></li>
+  <li><a href="#viewparticipant">View participant</a></li>
+  <li><a href="#editparticipant">Edit participant</a></li>
+  <li><a href="#removeparticipant">Remove participant</a></li>
+  <li><a href="#removeparticipantfromcourse">Only remove participant from course</a></li>
+  <li><a href="#style">Style</a></li>
+  <li><a href="#uninstall">Uninstall</a></li>
+  <li><a href="#language">Language</a></li>
+</ul>
+<a name="install"></a><h2>Install</h2>
+<p>There are two ways to install plugin.</p>
+<ol>
+  <li>You unpack the plugin folder on your FTP server under 'wp-content/plugins/'.</li>
+  <li>You go to Plugins in the admin and select Add New from the menu. Then you will find a link Upload under the main title. Click it.<br>
+	Browse to the zipfolder with the plugin and click Install. </li>
+</ol>
+<p>After you have done any of the above, go to Plugins and find the name of the plugin and click Activate. CM creates the following tables in your wordpress database:</p>
+<ul>
+  <li>cm_courses</li>
+  <li>cm_participants</li>
+  <li>cm_courseparticipant</li>
+</ul>
+<p>and the following rows in the table wp_options if you're using version 0.1-0.3:</p>
+<ul>
+  <li>cm_db_version</li>
+  <li>cm_send_mail</li>
+  <li>cm_adm_email</li>
+</ul>
+<p>For later versions then 0.3 the settings is saved in an array. The following row is created in wp_options table:</p>
+<ul>
+  <li>cm_settings</li>
+</ul>
+<p>CM has its own menu in the admin which appears at the bottom of the menu column.</p>
+<p><img src="images/cm_admin_menu.png" alt="cm_admin_menu"></p>
+<a name="settings"></a><h2>Settings</h2>
+<p>In settings you can see which version you have of CM and determine if admin will get an email when a new registration is received. It is also here that you uninstall the CM from Wordpress, which clears   the tables from the database and the settings stored in the wp_options.</p>
+<p><img src="images/cm_settings.png" alt="cm_settings"></p>
+<a name="courseoverview"></a><h2>Course overview</h2>
+<p>The menu option Courses gives you an overview of the courses you have added.</p>
+<p><img src="images/cm_course_overview.png" alt="cm_course_overview"></p>
+<a name="addnewcourse"></a><h2>Add new course</h2>
+<p>You can add the course via the CM-menu by clicking on the New Course or click the New Course in the course overview.</p>
+<p><img src="images/cm_admin_menu_new_course.png" alt="cm_admin_new_course"></p>
+<p>On the New Course, enter the information you want to add. Here you can choose if the course should be available or not, select Yes or No at Visible.</p>
+<p><img src="images/cm_new_course.png" alt="cm_new_course"></p>
+<a name="viewcourse"></a><h2>View course</h2>
+<p> When you choose to view course, you get a small preview of the chosen course and you can see which participants have registered.</p>
+<p><img src="images/cm_view_course.png" alt="cm_view_course"></p>
+<p>It is also where you delete a participant from a course if they no longer wish to participate in the course.</p>
+<a name="editcourse"></a><h2>Edit course</h2>
+<p>Here's where you edit the selected course if any information needs to be updated or if something is wrong.</p>
+<p><img src="images/cm_edit_course.png" alt="cm_edit_course"></p>
+<a name="removecourse"></a><h2>Remove course</h2>
+<p>To remove a course, click the Remove link. You'll get a dialog asking if you really want to delete the course. Click OK to delete the course entirely, or Cancel to go back.</p>
+<p><img src="images/cm_remove_course.png" alt="cm_remove_course"></p>
+<a name="showcourse"></a><h2>Show course overview on a wordpress page</h2>
+<p>To show the courses on your website, you first create a new page in wordpress. Then in the editor, type in &lt;!--CMOVERVIEW--&gt; in the HTMLview where you want to show the course overview.</p>
+<p><img src="images/cm_show_course_overview.png" alt="cm_show_course_overview"></p>
+<p>This is later replaced with the course overview when you look at your website. The style varies depending on how you have set your style sheet.</p>
+<p><img src="images/cm_course_overview_wppage.png" alt="cm_course_overview"></p>
+<a name="showregistration"></a><h2>Show registration form on a wordpress page</h2>
+<p>To show the registration form, create a new page or edit an existing one. In the editor, type in &lt;!--CMFORM--&gt; in HTMLview where you want to show the registration form.</p>
+<p><img src="images/cm_show_registration_form.png" alt="cm_show_registration_form"></p>
+<p>Select to preview the page and you will see that the form appears. The style varies depending on how you have set your style sheet.</p>
+<p><img src="images/cm_registration_form_wppage.png" alt="cm_registrationform"></p>
+<a name="addcaptcha"></a><h2>Add CAPTCHA</h2>
+<p>For the CAPTCHA to be available, you must have the plugin 'Really Simple Captcha'. Download it here http://wordpress.org/extend/plugins/really-simple-captcha/, install and activate it. Then you get a CAPTCHA image and a text field on the registration form.</p>
+<p><img src="images/cm_reg_captcha.png" alt="cm_reg_captcha"></p>
+<a name="participantoverview"></a><h2>Participant overview</h2>
+<p>Once you've got a few participants you can view them under Participants in the CM menu. From here   you can then view, edit and delete a participant. </p>
+<p><img src="images/cm_participants_overview.png" alt="cm_participants_overview"></p>
+<a name="addnewparticipant"></a><h2>Add new participant</h2>
+<p>As of version 0.3 of CM you have the opportunity to add new participants through the admin. Either click on the link in a overview of participants or in the admin menu, New Participant.</p>
+<p><img src="images/cm_new_participant.png" alt="cm_new_participant"></p>
+<a name="viewparticipant"></a><h2>View participant</h2>
+<p>A simple overview of the selected participant. You can see which courses the participant has registered for, name and e-mail.</p>
+<p><img src="images/cm_view_participant.png" alt="cm_view_participant"></p>
+<a name="editparticipant"></a><h2>Edit participant</h2>
+<p>Edit by clicking the Edit link at the desired participant. Then you can edit the name, email, registration date and amend if the participant does not wish to participate in one of courses and vice   versa.</p>
+<p><img src="images/cm_edit_participant.png" alt="cm_edit_participant"></p>
+<a name="removeparticipant"></a><h2>Remove participant</h2>
+<p>Click the Remove link to remove a participant entirely. You get a dialog box asking you to confirm if you want to remove the participant or not. Click OK to delete or Cancel to go back. </p>
+<p><img src="images/cm_remove_participant.png" alt="cm_remove_participant"></p>
+<a name="removeparticipantfromcourse"></a><h2>Only remove participant from course</h2>
+<p>Under view course, you can only remove participants from the course if he does not wish to participate further. This does not delete the actual participant, but only registration to the course. To remove a participant fully read the above paragraph. </p>
+<p><img src="images/cm_remove_participant_from_course.png" alt="cm_remove_participant_from_course"></p>
+<a name="style"></a><h2>Style</h2>
+<p>If you want to style the course overview and registrationform on a wppage, you can use the following classes:</p>
+<ul>
+  <li>cm_tbl_regform</li>
+  <li>cm_tbl_courseoverview</li>
+</ul>
+<p>For example:</p>
+<p>I added the following css to the active themes cssfile (I used the classic theme)</p>
+<p><code>.cm_tbl_regform {
+	width: 100%;
+	font-size: 11px;
+	margin: 20px 0;
+}</code></p>
+<p>The result can you see in the below image:</p>
+<p><img src="images/cm_styled_regform.png" alt="cm_styled_regform"></p>
+<p>And to style the course overview I added:</p>
+<p><code>.cm_tbl_courseoverview {
+	width: 100%;
+	font-size: 12px;
+	margin: 20px 0;
+	border: 1px solid #ccc;
+}
+<br>
+.cm_tbl_courseoverview thead {
+	text-align: left;
+	background: #999;
+}
+<br>
+.cm_tbl_courseoverview td {
+	border: 1px solid #ccc;
+</code></p>
+<p>The result:</p>
+<p><img src="images/cm_styled_courseoverview.png" alt="cm_styled_courseoverview"></p>
+<a name="uninstall"></a><h2>Uninstall</h2>
+<p>When you wish to uninstall the whole CM, go to the Settings in the CM menu and choose Yes by Uninstall and then click Save. This will remove tables and delete settings. NOTE: This clears everything from courses to participants.</p>
+<p><img src="images/cm_uninstall.png" alt="cm_uninstall"></p>
+<p>Then deactivate it in the 'Plugins' and then select Delete to delete the folder and files with the CM.</p>
+<a name="language"></a><h2>Language</h2>
+<p>CM is translated into the following languages:</p>
+<ul>
+  <li>Swedish</li>
+  <li>English</li>
+</ul>
+</body>
+</html>

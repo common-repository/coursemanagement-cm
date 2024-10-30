@@ -1,0 +1,595 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: coursemanagement\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-10-11 13:06+0100\n"
+"PO-Revision-Date: 2010-10-11 13:06+0100\n"
+"Last-Translator: Jonna Tärneberg <jotaprojects@gmail.com>\n"
+"Language-Team: Jonna Tärneberg <jotaprojects@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;printf\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\coursemanagement\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\coursemanagement\n"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:11
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:11
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:10
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:11
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:28
+msgid "Couldn't create course"
+msgstr "Couldn't create course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:31
+msgid "Course created"
+msgstr "Course created"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:36
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:30
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:41
+msgid "New Course"
+msgstr "New Course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:39
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:46
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:38
+msgid "Back to Courses"
+msgstr "Back to Courses"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:46
+msgid "Course name"
+msgstr "Course name"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:48
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:55
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:50
+msgid "Course description"
+msgstr "Course description"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:52
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:41
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:60
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:59
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:54
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:828
+msgid "Day"
+msgstr "Day"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:53
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:60
+msgid "Mondays, Tuesdays"
+msgstr "Mondays, Tuesdays"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:53
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:101
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:60
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:66
+msgid "Max length"
+msgstr "Max length"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:56
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:42
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:61
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:63
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:58
+msgid "Startdate"
+msgstr "Startdate"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:60
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:43
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:62
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:67
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:62
+msgid "Enddate"
+msgstr "Enddate"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:64
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:63
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:71
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:66
+msgid "Starttime"
+msgstr "Starttime"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:68
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:64
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:75
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:70
+msgid "Endtime"
+msgstr "Endtime"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:72
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:46
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:65
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:79
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:74
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:830
+msgid "Price"
+msgstr "Price"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:76
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:83
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:78
+msgid "Number of places"
+msgstr "Number of places"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:80
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:49
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:68
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:93
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:86
+msgid "Visible"
+msgstr "Visible"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:82
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:90
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:98
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:101
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:84
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:89
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:106
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:90
+msgid "Yes"
+msgstr "Yes"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:83
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:92
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:99
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:102
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:86
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:91
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:108
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:92
+msgid "No"
+msgstr "No"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:88
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:127
+msgid "Create"
+msgstr "Create"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addcourse.php:92
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:131
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:104
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:83
+msgid "CM isn't installed. Please go to settings and install it"
+msgstr "CM isn't installed. Please go to settings and install it"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:37
+msgid "Participant already exists"
+msgstr "Participant already exists"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:40
+msgid "Participant created"
+msgstr "Participant created"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:56
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:723
+msgid "Registered to"
+msgstr "Registered to"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:65
+msgid "Couldn't create participant"
+msgstr "Couldn't create participant"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:70
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:744
+msgid "Something went wrong"
+msgstr "Something went wrong"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:79
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:33
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:43
+msgid "New Participant"
+msgstr "New Participant"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:95
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:60
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:137
+msgid "Back to Participants"
+msgstr "Back to Participants"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:100
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:40
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:59
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:65
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:43
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:55
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:102
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:145
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:763
+msgid "Name"
+msgstr "Name"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:104
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:69
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:44
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:56
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:98
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:103
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:149
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:767
+msgid "Email"
+msgstr "Email"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:108
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:30
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:81
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:157
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:40
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:771
+msgid "Courses"
+msgstr "Courses"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:117
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:797
+msgid "All courses are full"
+msgstr "All courses are full"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_addparticipant.php:120
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:75
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:99
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:64
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:112
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:165
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:838
+msgid "Sorry, no entries."
+msgstr "Sorry, no entries."
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:19
+msgid "Course deleted"
+msgstr "Course deleted"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:21
+msgid "Couldn't deleted course"
+msgstr "Couldn't deleted course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:47
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:66
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:831
+msgid "Places"
+msgstr "Places"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:48
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:67
+msgid "Free Places"
+msgstr "Free Places"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:51
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:47
+msgid "Sort by"
+msgstr "Sort by"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:69
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:58
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:105
+msgid "Actions"
+msgstr "Actions"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:93
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:72
+msgid "Show"
+msgstr "Show"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:94
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:73
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:38
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:137
+msgid "Edit"
+msgstr "Edit"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:95
+msgid "Do you want to delete this course?"
+msgstr "Do you want to delete this course?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_courses.php:95
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:74
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:119
+msgid "Delete"
+msgstr "Delete"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:32
+msgid "Couldn't update course"
+msgstr "Couldn't update course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:35
+msgid "Course updated"
+msgstr "Course updated"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:59
+msgid "Editing"
+msgstr "Editing"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:86
+msgid "You can't edit places when there are participants to the course"
+msgstr "You can't edit places when there are participants to the course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editcourse.php:110
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:107
+msgid "Update"
+msgstr "Update"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:30
+msgid "Participant updated"
+msgstr "Participant updated"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:32
+msgid "Couldn't update participant"
+msgstr "Couldn't update participant"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_editparticipant.php:73
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:827
+msgid "Date"
+msgstr "Date"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:20
+msgid "Participant deleted"
+msgstr "Participant deleted"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:22
+msgid "Couldn't delete participant"
+msgstr "Couldn't delete participant"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:33
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:98
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:42
+msgid "Participants"
+msgstr "Participants"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:45
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:57
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:104
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:153
+msgid "Registered"
+msgstr "Registered"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_participants.php:74
+msgid "Do you want to delete this participant?"
+msgstr "Do you want to delete this participant?"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:23
+msgid "Upgraded with success"
+msgstr "Upgraded with success"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:30
+msgid "Installed with success"
+msgstr "Installed with success"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:41
+msgid "Uninstalled the tables with success"
+msgstr "Uninstalled the tables with success"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:46
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:946
+msgid "Please fill in a valid email"
+msgstr "Please fill in a valid email"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:51
+msgid "Settings saved"
+msgstr "Settings saved"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:57
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:50
+msgid "Settings"
+msgstr "Settings"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:60
+msgid "Install"
+msgstr "Install"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:66
+msgid "Version"
+msgstr "Version"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:72
+msgid "Upgrade to"
+msgstr "Upgrade to"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:76
+msgid "Version check"
+msgstr "Version check"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:79
+msgid "Send mail to admin"
+msgstr "Send mail to admin"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:95
+msgid "Admin gets a mail when a new registration is made"
+msgstr "Admin gets a mail when a new registration is made"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:100
+msgid "Email address"
+msgstr "Email address"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:103
+msgid "Uninstall"
+msgstr "Uninstall"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:110
+msgid "Removes courseManagement from the database"
+msgstr "Removes courseManagement from the database"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_settings.php:113
+msgid "Save"
+msgstr "Save"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:24
+msgid "Deleted from course"
+msgstr "Deleted from course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:26
+msgid "Couldn't delete participant from course"
+msgstr "Couldn't delete participant from course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:37
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:136
+msgid "Viewing"
+msgstr "Viewing"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:82
+msgid "Number of free places"
+msgstr "Number of free places"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/cm_show.php:119
+msgid ""
+"Do you want to delete this participant from this course?\n"
+"(It does NOT delete the participant)"
+msgstr ""
+"Do you want to delete this participant from this course?\\n"
+"(It does NOT delete the participant)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:38
+msgid "courseManagement (CM)"
+msgstr "courseManagement (CM)"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:38
+msgid "CM"
+msgstr "CM"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:632
+msgid "<!--CMFORM-->"
+msgstr "<!--CMFORM-->"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:694
+msgid "You've been added"
+msgstr "You've been added"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:697
+msgid "Couldn't add you"
+msgstr "Couldn't add you"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:716
+msgid "You're already registered to"
+msgstr "You're already registered to"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:734
+#, php-format
+msgid "A new participant (%s, %s) has been registrered to %s"
+msgstr "A new participant (%s, %s) has been registrered to %s"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:735
+msgid "New CM Registration"
+msgstr "New CM Registration"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:784
+msgid "Control"
+msgstr "Control"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:786
+msgid "Write the code you see above"
+msgstr "Write the code you see above"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:791
+msgid "Send"
+msgstr "Send"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:800
+msgid "No courses exists"
+msgstr "No courses exists"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:814
+msgid "<!--CMOVERVIEW-->"
+msgstr "<!--CMOVERVIEW-->"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:825
+msgid "Course"
+msgstr "Course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:826
+msgid "Description"
+msgstr "Description"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:829
+msgid "Time"
+msgstr "Time"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:879
+msgid "Please select at least one of the courses"
+msgstr "Please select at least one of the courses"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:900
+msgid "Please fill in a name of the course"
+msgstr "Please fill in a name of the course"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:902
+msgid "Please fill in a day or days"
+msgstr "Please fill in a day or days"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:904
+msgid "Please fill in a startTime"
+msgstr "Please fill in a startTime"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:906
+msgid "Please fill in an endTime"
+msgstr "Please fill in an endTime"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:908
+msgid "Please fill in a price"
+msgstr "Please fill in a price"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:911
+msgid "The value for price is not valid"
+msgstr "The value for price is not valid"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:914
+msgid "The value for places is not valid"
+msgstr "The value for places is not valid"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:916
+msgid "The value for startTime is not valid"
+msgstr "The value for startTime is not valid"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:918
+msgid "The value for endTime is not valid"
+msgstr "The value for endTime is not valid"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:921
+msgid "The value for startDate is not valid"
+msgstr "The value for startDate is not valid"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:924
+msgid "The value for endDate is not valid"
+msgstr "The value for endDate is not valid"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:938
+msgid "Please fill in a name"
+msgstr "Please fill in a name"
+
+#: C:\xampp\htdocs\wordpress\wp-content\plugins\coursemanagement/coursemanagement.php:942
+msgid "Please fill in an email"
+msgstr "Please fill in an email"
+
+#~ msgid "Email couldn't be sent"
+#~ msgstr "Email couldn't be sent"
+
+#~ msgid "Email was sent"
+#~ msgstr "Email was sent"
+
+#, fuzzy
+#~ msgid "A new participant "
+#~ msgstr "New Participant"
+
+#, fuzzy
+#~ msgid "You've been registered to"
+#~ msgstr "You're already registered to"
+
+#~ msgid "Added to course"
+#~ msgstr "Added to course"
+
+#~ msgid "Couldn't add you to course"
+#~ msgstr "Couldn't add you to course"

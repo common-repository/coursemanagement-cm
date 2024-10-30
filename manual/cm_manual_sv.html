@@ -1,0 +1,153 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>courseManagement (CM) manual</title>
+</head>
+
+<body>
+<h1>courseManagement (CM) Manual</h1>
+<h2>Innehåll</h2>
+<ul>
+  <li><a href="#install">Installera</a></li>
+  <li><a href="#settings">Inställningar</a></li>
+  <li><a href="#courseoverview">Kursöverblick</a></li>
+  <li><a href="#addnewcourse">Lägg till ny kurs</a></li>
+  <li><a href="#viewcourse">Visa kurs</a></li>
+  <li><a href="#editcourse">Redigera kurs</a></li>
+  <li><a href="#removecourse">Ta bort kurs</a></li>
+  <li><a href="#showcourse">Visa kursöverblick på en wordpress-sida</a></li>
+  <li><a href="#showregistration">Visa registreringsformulär på wordpress-sida</a></li>
+  <li><a href="#addcaptcha">Lägg till CAPTCHA</a></li>
+  <li><a href="#participantoverview">Deltagaröverblick</a></li>
+  <li><a href="#addnewparticipant">Lägg till ny deltagare</a></li>
+  <li><a href="#viewparticipant">Visa deltagare</a></li>
+  <li><a href="#editparticipant">Redigera deltagare</a></li>
+  <li><a href="#removeparticipant">Ta bort deltagare</a></li>
+  <li><a href="#removeparticipantfromcourse">Endast ta bort deltagare från kurs</a></li>
+  <li><a href="#style">Stila</a></li>
+  <li><a href="#uninstall">Avinstallera</a></li>
+  <li><a href="#language">Språk</a></li>
+</ul>
+<a name="install"></a><h2>Installera</h2>
+<p>Det finns 2 sätt att installera plugin  på. </p>
+<ol>
+  <li>Du packar upp  pluginmappen på din FTP server i 'wp-content/plugins/'.</li>
+  <li>Du går till Tillägg i admin och väljer Lägg till nytt i menyn. Därefter hittar du en länk Ladda upp under huvudrubriken. Klicka på den. <br>
+    Bläddra fram zipmappen med pluginet och klicka på Installera.</li>
+</ol>
+<p>Efter att du har gjort någon utav  ovanstående går du till Tillägg och letar upp pluginets namn och klickar på Aktivera. CM skapar följande tabeller i din wordpressdatabas:</p>
+<ul>
+  <li>cm_courses</li>
+  <li>cm_participants</li>
+  <li>cm_courseparticipant</li>
+</ul>
+<p>och följande rader i tabellen wp_options om du använder version 0.1-0.3</p>
+<ul>
+  <li>cm_db_version</li>
+  <li>cm_send_mail</li>
+  <li>cm_adm_email</li>
+</ul>
+<p>För senare versioner än 0.3, sparas inställningarna i en array. Följande rad skapas då i wp_options tabellen:</p>
+<ul>
+  <li>cm_settings</li>
+</ul>
+<p>CM har en egen meny i admin vilket  dyker upp längst ner i menykolumnen. </p>
+<p><img src="images/cm_admin_menu.png" alt="cm_admin_menu"></p>
+<a name="settings"></a><h2>Inställningar</h2>
+<p>Under inställningar kan du se vilken  version du har av CM och bestämma om admin ska få mail när en ny  registrering kommer in. Det är även här som du avinstallerar CM  från wordpress, dvs rensar bort tabellerna från databasen och de  inställningar sparade i wp_options.</p>
+<p><img src="images/cm_settings.png" alt="cm_settings"></p>
+<a name="courseoverview"></a><h2>Kursöverblick</h2>
+<p>Under menyalternativet Kurser får du  en överblick över de kurser som du har lagt till. </p>
+<p><img src="images/cm_course_overview.png" alt="cm_course_overview"></p>
+<a name="addnewcourse"></a><h2>Lägg till ny kurs</h2>
+<p>Du kan lägga till kurs via CM-menyn  genom att klicka på Ny Kurs eller klicka på länken Ny Kurs i kursöverblicken.</p>
+<p><img src="images/cm_admin_menu_new_course.png" alt="cm_admin_new_course"></p>
+<p>På sidan Ny Kurs skriver du den information som du vill lägga till. Här kan du välja om kursen ska vara tillgänglig eller inte genom att välja Ja eller Nej vid Synlig.</p>
+<p><img src="images/cm_new_course.png" alt="cm_new_course"></p>
+<a name="viewcourse"></a><h2>Visa kurs</h2>
+<p>När du väljer att visa kurs får du en mindre överblick på den valda kursen och du kan se vilka deltagare som har anmält sig.</p>
+<p><img src="images/cm_view_course.png" alt="cm_view_course"></p>
+<p>Det är också här som du tar bort en  deltagare från en kurs om de inte längre önskar att delta i kursen.</p>
+<a name="editcourse"></a><h2>Redigera kurs</h2>
+<p>Här redigerar du den valda kursen  ifall någon information behövs uppdateras eller om något är fel.</p>
+<p><img src="images/cm_edit_course.png" alt="cm_edit_course"></p>
+<a name="removecourse"></a><h2>Ta bort kurs</h2>
+<p>För att ta bort en kurs klickar du på länken Ta bort. Då får du en dialogruta som frågar ifall du verkligen vill ta bort kursen. Klicka Ok för att ta bort kursen helt och hållet, annars Avbryt.</p>
+<p><img src="images/cm_remove_course.png" alt="cm_remove_course"></p>
+<a name="showcourse"></a><h2>Visa kursöverblick på en wordpress-sida</h2>
+<p>För att visa kurserna på din hemsida,  skapar du först en ny sida i wordpress. Därefter i editorn skriver  du in &lt;!--CMOVERVIEW--&gt; i HTMLvyn där du önskar att kursöverblicken ska synas. </p>
+<p><img src="images/cm_show_course_overview.png" alt="cm_show_course_overview"></p>
+<p>Detta ersätts sedan med kursöverblick  när du tittar på din hemsida. Stilen varierar beroende på hur du har satt upp din  stilmall.</p>
+<p><img src="images/cm_course_overview_wppage.png" alt="cm_course_overview"></p>
+<a name="showregistration"></a><h2>Visa registreringsformulär på wordpress-sida</h2>
+<p>För visa registreringsformuläret  skapar du en ny sida eller redigerar en befintlig. I editorn skriver  du in &lt;!--CMFORM--&gt;  där du vill visa registreringsformuläret. </p>
+<p><img src="images/cm_show_registration_form.png" alt="cm_show_registration_form"></p>
+<p>Välj att visa sidan och du ska se att  formuläret dyker upp. Stilen varierar beroende på hur du har satt upp din stilmall.</p>
+<p><img src="images/cm_registration_form_wppage.png" alt="cm_registrationform"></p>
+<a name="addcaptcha"></a><h2>Lägg till CAPTCHA</h2>
+<p>För att CAPTCHA ska vara tillgängligt måste du ha tillägget Really Simple Captcha. Ladda ner det här http://wordpress.org/extend/plugins/really-simple-captcha/, installera och aktivera det. Då får du en CAPTCHA-image och ett textfält i registreringsformuläret. </p>
+<p><img src="images/cm_reg_captcha.png" alt="cm_reg_captcha"></p>
+<a name="participantoverview"></a><h2>Deltagaröverblick</h2>
+<p>När du har fått några deltagare  visas de under Deltagare i CM-menyn. Härifrån kan du sedan visa,  redigera och ta bort en deltagare.</p>
+<p><img src="images/cm_participants_overview.png" alt="cm_participants_overview"></p>
+<a name="addnewparticipant"></a><h2>Lägg till ny deltagare</h2>
+<p>Från och med version 0.3 av CM har du möjlighet att lägga till nya deltagare via admin. Klicka antingen på länken i överblicken för deltagare eller i adminmenyn, Ny Deltagare.</p>
+<p><img src="images/cm_new_participant.png" alt="cm_new_participant"></p>
+<a name="viewparticipant"></a><h2>Visa deltagare</h2>
+<p>En enkel överblick över vald  deltagare. Du ser vilka kurser deltagaren har anmält sig till och  namn och e-post.</p>
+<p><img src="images/cm_view_participant.png" alt="cm_view_participant"></p>
+<a name="editparticipant"></a><h2>Redigera deltagare</h2>
+<p>Redigera gör du enkelt via att klicka  på länken Redigera vid önskad deltagare. Då får du möjlighet  att redigera namn, e-post, registreringsdatum och ändra ifall deltagaren inte önskar  delta i en utav kurser och vice verse.</p>
+<p><img src="images/cm_edit_participant.png" alt="cm_edit_participant"></p>
+<a name="removeparticipant"></a><h2>Ta bort deltagare</h2>
+<p>Klicka på länken Ta bort för att ta  bort en deltagare helt och hållet. Du får upp en dialogruta där du  ska bekräfta om du vill ta bort deltagaren eller inte. Klicka på Ok  för att ta bort eller Avbryt för att gå tillbaka.</p>
+<p><img src="images/cm_remove_participant.png" alt="cm_remove_participant"></p>
+<a name="removeparticipantfromcourse"></a><h2>Ta bort deltagare från kurs</h2>
+<p>Under kursöverblicken har du möjlighet  att endast ta bort deltagare från kursen om denna inte önskar delta  längre. Här tas inte bort själva deltagaren utan endast  anmälningen till kursen. För att ta bort en deltagare helt och  hållet läs ovanstående punkt.</p>
+<p><img src="images/cm_remove_participant_from_course.png" alt="cm_remove_participant_from_course"></p>
+<a name="style"></a><h2>Stila</h2>
+<p>Om du vill stila kursöverblicken och registreringsformuläret på en wppage, kan du använda följande klasser:</p>
+<ul>
+  <li>cm_tbl_regform</li>
+  <li>cm_tbl_courseoverview</li>
+</ul>
+<p>Till exempel:</p>
+<p>Jag la till följande css till det aktiva temats stilmall (Jag använde det klassiska temat):</p>
+<p><code>.cm_tbl_regform {
+	width: 100%;
+	font-size: 11px;
+	margin: 20px 0;
+}</code></p>
+<p>Resultet ser du nedan:</p>
+<p><img src="images/cm_styled_regform.png" alt="cm_styled_regform"></p>
+<p>För att stila kursöverblicken la jag till:</p>
+<p><code>.cm_tbl_courseoverview {
+	width: 100%;
+	font-size: 12px;
+	margin: 20px 0;
+	border: 1px solid #ccc;
+}
+<br>
+.cm_tbl_courseoverview thead {
+	text-align: left;
+	background: #999;
+}
+<br>
+.cm_tbl_courseoverview td {
+	border: 1px solid #ccc;
+</code></p>
+<p>Resultatet:</p>
+<p><img src="images/cm_styled_courseoverview.png" alt="cm_styled_courseoverview"></p>
+<a name="uninstall"></a><h2>Avinstallera</h2>
+<p>När du önskar avinstallera hela CM  går du till Inställningar för CM och klickar i Ja vid rubriken  Avinstallera och klickar på Spara. Då tas tabeller och  inställningar bort. OBS! Detta rensar bort allting från kurser till  deltagare. </p>
+<p><img src="images/cm_uninstall.png" alt="cm_uninstall"></p>
+<p>Därefter avaktiverar du det under  Tillägg och sedan väljer Ta bort för att ta bort mappen och  filerna med CM. </p>
+<a name="language"></a><h2>Språk</h2>
+<p>CM är översatt till följande språk:</p>
+<ul>
+  <li>Svenska</li>
+  <li>Engelska</li>
+</ul>
+</body>
+</html>
